@@ -17,7 +17,7 @@ How does revenue correlate with customer retention?
 ---
 CustomerData.xlsx is the primary source of data used. This is an open source dataset, given for the final capstone project
 In the process of the analysis  metrics were added to the dataset using formula which added a column to the dataset given to solve problem they are:
-1. Average Subscription Duratio
+1. Average Subscription Duration
 
 ### Tools Used
 ---
@@ -50,16 +50,20 @@ To solve the problem statement, simple visualizations that summarised the data u
 
 ![image](https://github.com/user-attachments/assets/6085d7d1-9f7a-4bac-b359-08dd4701b4ae)
 
+
 The East region seems to be the top-performing region, generating the highest revenue, 16,958,763k.  The "Basic" subscription type appears to be the most popular, contributing significantly to the overall revenue. 
 
 ### CustomerID and Subscription Type
 
 ![image](https://github.com/user-attachments/assets/2603d42b-57b8-41c7-b2bf-ce66cfb14112)
+
+ 
  The "Basic" subscription type has the largest customer base with the value of 16,921k
 
 ### Cancellation Rate by Subscription Type
 
 ![image](https://github.com/user-attachments/assets/c9d79b3a-c4f5-46ed-834f-27eebca62dd8)
+ 
  The "Premium" and "Standard" subscription types have significantly higher cancellation rates compared to the "Basic" type with the value  60%,60%, and 29.9%.
 
 Note: How cancellation rate was generated:
@@ -77,6 +81,7 @@ Standard:
 ### Revenue by Customer Retention
 
 ![image](https://github.com/user-attachments/assets/2099181c-e682-45cf-8c2c-1f690fa5828d)
+
 There appears to be a positive correlation between revenue and customer retention. Customer(Liam with the value 3,437,444k
 ), who generate higher revenue tend to be more loyal.
  
