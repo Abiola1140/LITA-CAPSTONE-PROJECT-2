@@ -15,9 +15,9 @@ How does revenue correlate with customer retention?
 
 ### Data Sources
 ---
-SalesData.xlsx is the primary source of data used. This is an open source dataset, given for the final capstone project
+CustomerData.xlsx is the primary source of data used. This is an open source dataset, given for the final capstone project
 In the process of the analysis  metrics were added to the dataset using formula which added a column to the dataset given to solve problem they are:
-1. Average Subscription Duration
+1. Average Subscription Duratio
 
 ### Tools Used
 ---
@@ -59,16 +59,33 @@ The East region seems to be the top-performing region, generating the highest re
 
 ### Cancellation Rate by Subscription Type
 
+![image](https://github.com/user-attachments/assets/c9d79b3a-c4f5-46ed-834f-27eebca62dd8)
+ The "Premium" and "Standard" subscription types have significantly higher cancellation rates compared to the "Basic" type with the value  60%,60%, and 29.9%.
 
-### 
+Note: How cancellation rate was generated:
+Using the given data, we can calculate the cancellation rate for each subscription type as follows:
+Basic:
+ * Total Basic Customers: 11,854 + 5,067 = 16,921
+ * Cancellation Rate: (5,067 / 16,921) * 100% ≈ 29.9%
+Premium:
+ * Total Premium Customers: 3,382 + 5,064 = 8,446
+ * Cancellation Rate: (5,064 / 8,446) * 100% ≈ 60%
+Standard:
+ * Total Standard Customers: 3,376 + 5,044 = 8,420
+ * Cancellation Rate: (5,044 / 8,420) * 100% ≈ 60%
+
+### Revenue by Customer Retention
+
+![image](https://github.com/user-attachments/assets/2099181c-e682-45cf-8c2c-1f690fa5828d)
+There appears to be a positive correlation between revenue and customer retention. Customer(Liam with the value 3,437,444k
+), who generate higher revenue tend to be more loyal.
+ 
 
 ### Recommendations 
-To address the fluctuations in sales and revenue, suggest the company should:
-
-  - Implement targeted marketing campaigns during peak seasons(February and July) to capitalize on increased demand and offer promotions or discounts during slows periods (March, April, 
-    September, and December) to stimulate sales.
-  - Prioritize marketing and inventory management for top-performing products like Gloves and Shoes, and explore product bundling opportunities.
-  - Invest in high-performing regions whict is the South region, and conduct a deeper analysis to identify specific growth opportunities.
-
+1. Focus on the East region and ensure that the "Basic" plan offers sufficient value to customers while maintaining profitability.
+2. Consider cross-selling or upselling to premium plans to increase revenue.
+3. Implement strategies to enhance customer satisfaction and reduce churn for these plans, Review the pricing and value proposition of these
+   plans to ensure they meet customer expectations and Implement targeted retention campaigns for customers in these segments.
+4. Prioritize high-value customers and provide tailored offers and discounts to retain valuable customers.
 
 
